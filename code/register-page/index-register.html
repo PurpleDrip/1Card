@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govt of India</title>
+    <link rel="icon" href="/hackathon/images/logo.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="/hackathon/code/welcome-page/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+    <video autoplay loop muted id="background-video">
+        <source src="/hackathon/videos/bg-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="register-form">
+        <form action="">
+            <h1>
+                REGISTER
+            </h1>
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Aadhar Number" required>
+            <input type="date" placeholder="Date of Birth" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <input type="submit" id="button">
+            <a href="">Already have an account?</a>
+            <p id="error-message" style="color:red;display:none;">Passwords does not match!</p>
+        </form>
+    </div>
+</body>
+<script>
+        // function validate() {
+        //     var password = document.getElementById('password').value;
+        //     var confirmPassword = document.getElementById('confirmPassword').value;
+        //     var errorMessage = document.getElementById('error-message');
+
+        //     if (password !== confirmPassword) {
+        //         errorMessage.style.display = 'block'; // Show error message
+        //         return false; // Prevent form submission
+        //     } else {
+        //         errorMessage.style.display = 'none'; // Hide error message
+        //         return true; // Allow form submission
+        //     }
+        // }
+</script>
+</html>
